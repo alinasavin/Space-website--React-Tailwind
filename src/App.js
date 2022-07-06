@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes} from "react-router-dom"
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 import {
   Header,
   Home,
@@ -14,7 +14,7 @@ function App() {
       <main>
         <Header />
 
-        <Routes>
+        <Switch>
           <Route path="/" exact>
             <Home />
           </Route>
@@ -30,7 +30,7 @@ function App() {
           <Route path="*">
             <Error />
           </Route>
-        </Routes>
+        </Switch>
       </main>
     </Router>
   )
