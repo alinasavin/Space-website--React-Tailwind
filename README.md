@@ -6,7 +6,7 @@ After building this using HTML, CSS and Vanilla JS I tought I would give it a go
 
 [Checkout live site](https://space-website-react-tailwind.netlify.app/)
 
-**React DOm new version bug- routes are working but page need refresh once toure is changed in the nav bar - fixed
+**React DOM new version bug- routes are working but page need refresh once toure is changed in the nav bar - fixed
 Second solution with application built using React and Tailwind CSS
 This is a solution to the [Space tourism website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3). 
 
